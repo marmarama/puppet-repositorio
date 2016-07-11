@@ -1,0 +1,14 @@
+{
+  "name": "marmarama/repositorio",
+  "version": "0.1.0",
+  "author": "marmarama",
+  "summary": "Sets up and manages the repositor.io (http://www.repositor.io/) Linux package repository management tool.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/marmarama/puppet-repositorio",
+  "project_page": "https://github.com/marmarama/puppet-repositorio",
+  "issues_url": "https://github.com/marmarama/puppet-repositorio/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
