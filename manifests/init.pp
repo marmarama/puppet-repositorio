@@ -44,6 +44,7 @@
 #
 class repositorio {
 
+  include repositorio::params
   include repositorio::install
   include repositorio::config
   include repositorio::cron

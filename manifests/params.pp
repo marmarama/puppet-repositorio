@@ -1,0 +1,3 @@
+class repositorio::params {
+
+}
