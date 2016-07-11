@@ -44,5 +44,12 @@
 #
 class repositorio {
 
+  include repositorio::install
+  include repositorio::config
+  include repositorio::cron
+
+  Class[repositorio::install] ->
+  Class[repositorio::config] ->
+  Class[repositorio::cron]
 
 }
